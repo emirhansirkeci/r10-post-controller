@@ -1,0 +1,66 @@
+.mainBox{
+
+  display: flex;
+  align-items:center;
+  flex-direction:column;
+}
+.url{
+  width:80%;
+  border:2px solid #aaa;
+  border-radius:4px;
+  margin:8px 0;
+  outline:none;
+  padding:8px;
+  box-sizing:border-box;
+  transition:.3s;
+}
+.url:focus{
+  border-color:dodgerBlue;
+  box-shadow:0 0 8px 0 dodgerBlue;
+  width:85%;
+}
+.btn{
+  width:15%;
+  border:0;
+  background:none;
+  text-align:center;
+  border:2px solid #aaa;
+  padding:7px 20px;
+  outline:none;
+  border-radius:24px;
+  transition:0.25s;
+  cursor:pointer;
+}
+.btn:hover{
+  width:20%;
+  border:2px solid dodgerBlue;
+  background:dodgerBlue;
+}
+.info{
+  text-align:center;
+  font-size:1.2rem;
+  font-style:normal;
+}
+p{
+  margin-top:0;
+  font-style:italic;
+  font-size:0.9rem;
+}
+.logo{
+  width:200px;
+  height:auto;
+  margin-bottom:0.5rem;
+}
+.author{
+  margin-top:1.5rem;
+  font-size:0.9rem;
+}
+h1{
+  font-size:1.5rem;
+}
+.first{
+  margin-top:8rem
+}
+.lastPost{
+  font-size:1rem;
+}
