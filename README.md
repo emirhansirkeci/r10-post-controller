@@ -1,4 +1,4 @@
-# r10postcontroller
+# R10 Post Controller Bot
 
 
 Program, R10.net üzerindeki yeni gönderileri kontrol etmeye yarıyor.
